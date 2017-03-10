@@ -10,137 +10,242 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     19616,        489]
-NotebookOptionsPosition[     18131,        441]
-NotebookOutlinePosition[     18488,        457]
-CellTagsIndexPosition[     18445,        454]
+NotebookDataLength[     15157,        342]
+NotebookOptionsPosition[     14707,        322]
+NotebookOutlinePosition[     15064,        338]
+CellTagsIndexPosition[     15021,        335]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[BoxData[{
+Cell[BoxData[
  RowBox[{
-  RowBox[{
-   RowBox[{"alphabet", " ", "=", " ", 
-    RowBox[{"{", 
-     RowBox[{
-     "\"\<A\>\"", ",", "\"\<B\>\"", ",", "\"\<C\>\"", ",", "\"\<D\>\"", ",", 
-      "\"\<E\>\"", ",", "\"\<F\>\"", ",", "\"\<G\>\"", ",", "\"\<H\>\"", ",", 
-      "\"\<I\>\"", ",", "\"\<J\>\"", ",", "\"\<K\>\"", ",", "\"\<L\>\"", ",", 
-      "\"\<M\>\"", ",", "\"\<N\>\"", ",", "\"\<O\>\"", ",", "\"\<P\>\"", ",", 
-      "\"\<Q\>\"", ",", "\"\<R\>\"", ",", "\"\<S\>\"", ",", "\"\<T\>\"", ",", 
-      "\"\<U\>\"", ",", "\"\<V\>\"", ",", "\"\<W\>\"", ",", "\"\<X\>\"", ",", 
-      "\"\<Y\>\"", ",", "\"\<Z\>\"", ",", "\"\< \>\"", ",", "\"\<.\>\"", ",", 
-      "\"\<,\>\""}], "}"}]}], ";"}], "\[IndentingNewLine]", 
   RowBox[{"(*", 
-   RowBox[{"Do", "[", 
-    RowBox[{
-     RowBox[{"Print", "[", 
-      RowBox[{"alphabet", "[", 
-       RowBox[{"[", "i", "]"}], "]"}], "]"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"i", ",", "26"}], "}"}]}], "]"}], 
-   "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{" ", 
-  RowBox[{"SIZE", "=", " ", 
-   RowBox[{"Length", "[", "alphabet", "]"}]}], "\[IndentingNewLine]", 
-  "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{
-   "Create", " ", "a", " ", "dictionary", " ", "for", " ", "converting", " ", 
-    "letters", " ", "to", " ", "numbers"}], "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"Do", "[", 
-   RowBox[{
-    RowBox[{
-     RowBox[{
-      RowBox[{"encodeDict", "[", 
-       RowBox[{"alphabet", "[", 
-        RowBox[{"[", "i", "]"}], "]"}], "]"}], "=", 
-      RowBox[{"Mod", "[", 
-       RowBox[{"i", ",", 
-        RowBox[{"Length", "[", "alphabet", "]"}]}], "]"}]}], ";"}], " ", 
-    "\[IndentingNewLine]", 
-    RowBox[{"(*", 
-     RowBox[{
-      RowBox[{"Print", "[", " ", "\[IndentingNewLine]", 
-       RowBox[{"StringForm", "[", " ", "\[IndentingNewLine]", 
-        RowBox[{"\"\<Letter: `` to number ``\>\"", ",", 
-         RowBox[{"alphabet", "[", 
-          RowBox[{"[", "i", "]"}], "]"}], ",", " ", 
-         RowBox[{"encodeDict", "[", 
-          RowBox[{"alphabet", "[", 
-           RowBox[{"[", "i", "]"}], "]"}], "]"}]}], "\[IndentingNewLine]", 
-        "]"}], "\[IndentingNewLine]", "]"}], ";"}], "*)"}], 
-    "\[IndentingNewLine]", ",", 
-    RowBox[{"{", 
-     RowBox[{"i", ",", 
-      RowBox[{"Length", "[", "alphabet", "]"}]}], "}"}]}], "]"}], 
-  "\[IndentingNewLine]", "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{
-   "Create", " ", "a", " ", "dictionary", " ", "for", " ", "decoding", " ", 
-    "letters"}], "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"Do", "[", 
-   RowBox[{
-    RowBox[{
-     RowBox[{"index", " ", "=", " ", 
-      RowBox[{"Mod", "[", 
-       RowBox[{"i", ",", "SIZE"}], "]"}]}], ";", 
-     RowBox[{
-      RowBox[{"decodeDict", "[", "index", "]"}], "=", 
-      RowBox[{"alphabet", "[", 
-       RowBox[{"[", "i", "]"}], "]"}]}], ";", " ", "\[IndentingNewLine]", 
-     RowBox[{"Print", "[", " ", "\[IndentingNewLine]", 
-      RowBox[{"StringForm", "[", " ", "\[IndentingNewLine]", 
-       RowBox[{"\"\<Number: `` to letter ``\>\"", ",", "index", ",", " ", 
-        RowBox[{"decodeDict", "[", "index", "]"}]}], "\[IndentingNewLine]", 
-       "]"}], "\[IndentingNewLine]", "]"}], ";"}], "\[IndentingNewLine]", ",", 
-    RowBox[{"{", 
-     RowBox[{"i", ",", "SIZE"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
-  "\[IndentingNewLine]", 
-  RowBox[{"(*", " ", 
    RowBox[{
     RowBox[{"===", "===", "===", "==="}], "=", 
     RowBox[{"===", "===", "===", "===", "===", "===", "===", "===", 
      RowBox[{"==", 
       RowBox[{"===", 
        RowBox[{"==", 
-        RowBox[{"===", "===", "=="}]}]}]}]}]}], 
-   "*)"}]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"input", " ", "=", " ", "\"\<I LOVE VODKA\>\""}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"inputNoSpace", "=", " ", 
-    RowBox[{"StringReplace", "[", 
-     RowBox[{"input", ",", 
-      RowBox[{"\"\< \>\"", "\[Rule]", "\"\<\>\""}]}], "]"}]}], ";"}], 
-  "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{"Print", "[", "inputNoSpace", "]"}], "*)"}], "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{"Print", "[", 
-    RowBox[{"StringTake", "[", 
-     RowBox[{"input", ",", 
-      RowBox[{"{", "1", "}"}]}], "]"}], "]"}], "*)"}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{"inputArray", " ", "=", " ", 
-    RowBox[{"Characters", "[", "inputNoSpace", "]"}]}], ";"}], 
-  "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{"===", "===", "=="}]}]}]}]}]}], "*)"}], "\[IndentingNewLine]", 
   RowBox[{"(*", 
    RowBox[{
-   "convert", " ", "input", " ", "char", " ", "list", " ", "to", " ", "int", 
-    " ", "list"}], "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
-  RowBox[{"(*", 
-   RowBox[{"convert", " ", "to", " ", "matrix"}], 
-   "*)"}]}], "\[IndentingNewLine]"}], "Input",
+    RowBox[{"alphabet", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<A\>\"", ",", "\"\<B\>\"", ",", "\"\<C\>\"", ",", "\"\<D\>\"", ",", 
+       "\"\<E\>\"", ",", "\"\<F\>\"", ",", "\"\<G\>\"", ",", "\"\<H\>\"", 
+       ",", "\"\<I\>\"", ",", "\"\<J\>\"", ",", "\"\<K\>\"", ",", "\"\<L\>\"",
+        ",", "\"\<M\>\"", ",", "\"\<N\>\"", ",", "\"\<O\>\"", ",", 
+       "\"\<P\>\"", ",", "\"\<Q\>\"", ",", "\"\<R\>\"", ",", "\"\<S\>\"", 
+       ",", "\"\<T\>\"", ",", "\"\<U\>\"", ",", "\"\<V\>\"", ",", "\"\<W\>\"",
+        ",", "\"\<X\>\"", ",", "\"\<Y\>\"", ",", "\"\<Z\>\"", ",", 
+       "\"\< \>\"", ",", "\"\<.\>\"", ",", "\"\<,\>\""}], "}"}]}], ";"}], 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"alphabet", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<A\>\"", ",", "\"\<B\>\"", ",", "\"\<C\>\"", ",", "\"\<D\>\"", ",", 
+       "\"\<E\>\"", ",", "\"\<F\>\"", ",", "\"\<G\>\"", ",", "\"\<H\>\"", 
+       ",", "\"\<I\>\"", ",", "\"\<J\>\"", ",", "\"\<K\>\"", ",", "\"\<L\>\"",
+        ",", "\"\<M\>\"", ",", "\"\<N\>\"", ",", "\"\<O\>\"", ",", 
+       "\"\<P\>\"", ",", "\"\<Q\>\"", ",", "\"\<R\>\"", ",", "\"\<S\>\"", 
+       ",", "\"\<T\>\"", ",", "\"\<U\>\"", ",", "\"\<V\>\"", ",", "\"\<W\>\"",
+        ",", "\"\<X\>\"", ",", "\"\<Y\>\"", ",", "\"\<Z\>\""}], "}"}]}], 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"cypherMatrix", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "4"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"8", ",", "3"}], "}"}]}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"===", "===", "===", "==="}], "=", 
+     RowBox[{"===", "===", "===", "===", "===", "===", "===", "===", 
+      RowBox[{"==", 
+       RowBox[{"===", 
+        RowBox[{"==", 
+         RowBox[{"===", "===", "=="}]}]}]}]}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Do", "[", 
+     RowBox[{
+      RowBox[{"Print", "[", 
+       RowBox[{"alphabet", "[", 
+        RowBox[{"[", "i", "]"}], "]"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "26"}], "}"}]}], "]"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"alphabetSize", "=", " ", 
+     RowBox[{"Length", "[", "alphabet", "]"}]}], ";"}], "\[IndentingNewLine]",
+    "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Create", " ", "a", " ", "dictionary", " ", "for", " ", "converting", " ",
+      "letters", " ", "to", " ", "numbers"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"Do", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"encodeDict", "[", 
+        RowBox[{"alphabet", "[", 
+         RowBox[{"[", "i", "]"}], "]"}], "]"}], "=", 
+       RowBox[{"Mod", "[", 
+        RowBox[{"i", ",", "alphabetSize"}], "]"}]}], ";"}], " ", 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"Print", "[", " ", "\[IndentingNewLine]", 
+        RowBox[{"StringForm", "[", " ", "\[IndentingNewLine]", 
+         RowBox[{"\"\<Letter: `` to number ``\>\"", ",", 
+          RowBox[{"alphabet", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], ",", " ", 
+          RowBox[{"encodeDict", "[", 
+           RowBox[{"alphabet", "[", 
+            RowBox[{"[", "i", "]"}], "]"}], "]"}]}], "\[IndentingNewLine]", 
+         "]"}], "\[IndentingNewLine]", "]"}], ";"}], "*)"}], 
+     "\[IndentingNewLine]", ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "alphabetSize"}], "}"}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Create", " ", "a", " ", "dictionary", " ", "for", " ", "decoding", " ", 
+     "letters"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"Do", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"index", " ", "=", " ", 
+       RowBox[{"Mod", "[", 
+        RowBox[{"i", ",", "alphabetSize"}], "]"}]}], ";", 
+      RowBox[{
+       RowBox[{"decodeDict", "[", "index", "]"}], "=", 
+       RowBox[{"alphabet", "[", 
+        RowBox[{"[", "i", "]"}], "]"}]}], ";"}], " ", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"Print", "[", " ", "\[IndentingNewLine]", 
+        RowBox[{"StringForm", "[", " ", "\[IndentingNewLine]", 
+         RowBox[{"\"\<Number: `` to letter ``\>\"", ",", "index", ",", " ", 
+          RowBox[{"decodeDict", "[", "index", "]"}]}], "\[IndentingNewLine]", 
+         "]"}], "\[IndentingNewLine]", "]"}], ";"}], "*)"}], 
+     "\[IndentingNewLine]", ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "alphabetSize"}], "}"}]}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"===", "===", "===", "==="}], "=", 
+     RowBox[{"===", "===", "===", "===", "===", "===", "===", "===", 
+      RowBox[{"==", 
+       RowBox[{"===", 
+        RowBox[{"==", 
+         RowBox[{"===", "===", "=="}]}]}]}]}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"plainText", " ", "=", " ", "\"\<I LOVE VODKA\>\""}], " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{"plainText", " ", "=", " ", 
+    RowBox[{"StringReplace", "[", 
+     RowBox[{"plainText", ",", 
+      RowBox[{"\"\< \>\"", "->", "\"\<\>\""}]}], "]"}]}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+    "add", " ", "dummy", " ", "characters", " ", "if", " ", "needed"}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Do", "[", 
+     RowBox[{
+      RowBox[{"plainText", " ", "=", " ", 
+       RowBox[{"plainText", "<>", "\"\<.\>\""}]}], ",", " ", 
+      RowBox[{"Mod", "[", 
+       RowBox[{
+        RowBox[{"StringLength", "[", "plainText", "]"}], ",", "matrixSize"}], 
+       "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", "plainText", "]"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"plainChars", " ", "=", " ", 
+     RowBox[{"Characters", "[", "plainText", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Encript", " ", "input", " ", "string"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"matrixSize", " ", "=", " ", 
+     RowBox[{"Length", "[", "cypherMatrix", "]"}]}], ";"}], " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"cypherChars", " ", "=", " ", 
+     RowBox[{"{", "}"}]}], ";"}], " ", "\[IndentingNewLine]", 
+   RowBox[{"Do", "[", " ", "\[IndentingNewLine]", 
+    RowBox[{"(*", 
+     RowBox[{"create", " ", "a", " ", "vector"}], "*)"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"vector", " ", "=", " ", 
+       RowBox[{"{", "}"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"Do", "[", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"char", " ", "=", " ", 
+          RowBox[{"Part", "[", 
+           RowBox[{"plainChars", ",", 
+            RowBox[{"i", "+", "j", "-", "1"}]}], "]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"int", " ", "=", " ", 
+          RowBox[{"encodeDict", "[", "char", "]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"AppendTo", "[", 
+          RowBox[{"vector", ",", "int"}], "]"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{"j", ",", "matrixSize"}], "}"}]}], "\[IndentingNewLine]", 
+       "]"}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{
+       "encrypt", " ", "vector", " ", "using", " ", "matrix", " ", 
+        "multiplication"}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"cypherVect", " ", "=", " ", 
+       RowBox[{"Mod", "[", 
+        RowBox[{
+         RowBox[{"cypherMatrix", ".", "vector"}], ",", " ", "alphabetSize"}], 
+        "]"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{
+       "convert", " ", "encrypted", " ", "vector", " ", "to", " ", "cypher", 
+        " ", "characters"}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"Do", "[", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"char", " ", "=", " ", 
+          RowBox[{"decodeDict", "[", "int", "]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"AppendTo", "[", 
+          RowBox[{"cypherChars", ",", "char"}], "]"}], ";"}], 
+        "\[IndentingNewLine]", ",", 
+        RowBox[{"{", 
+         RowBox[{"int", ",", " ", "cypherVect"}], "}"}]}], 
+       "\[IndentingNewLine]", "]"}], ";"}], "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "1", ",", 
+       RowBox[{"StringLength", "[", "plainText", "]"}], ",", "matrixSize"}], 
+      "}"}]}], "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Final", " ", "cyphertext"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"StringJoin", "[", "cypherChars", "]"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]"}]}]], "Input",
  CellChangeTimes->{{3.697812824752963*^9, 3.697812839104988*^9}, {
    3.697812884045067*^9, 3.697812958522375*^9}, {3.697813076648951*^9, 
    3.697813115883195*^9}, {3.6978131536011877`*^9, 3.6978131617444024`*^9}, {
@@ -167,279 +272,55 @@ Cell[BoxData[{
    3.698102372025488*^9, 3.698102390400234*^9}, {3.6981024692688*^9, 
    3.6981025894435883`*^9}, {3.698102631987069*^9, 3.6981026379943933`*^9}, {
    3.6981026916941757`*^9, 3.698102716759364*^9}, 3.698102762562584*^9, {
-   3.698102804312387*^9, 3.6981028417318897`*^9}}],
+   3.698102804312387*^9, 3.6981028417318897`*^9}, {3.698102921382712*^9, 
+   3.698102926611261*^9}, {3.698103132251206*^9, 3.698103200713805*^9}, {
+   3.698103334584848*^9, 3.6981033402412567`*^9}, {3.69810342407325*^9, 
+   3.698103539137748*^9}, {3.6981035735939293`*^9, 3.698103594355937*^9}, {
+   3.698103632122438*^9, 3.6981037800530787`*^9}, {3.698103868575526*^9, 
+   3.6981039420753517`*^9}, {3.698104015081326*^9, 3.698104145629259*^9}, {
+   3.698104241793931*^9, 3.698104269126939*^9}, {3.6981043898301163`*^9, 
+   3.698104439315407*^9}, {3.698104475516457*^9, 3.698104488208651*^9}, {
+   3.698104520087628*^9, 3.6981045354436703`*^9}, {3.698104677331846*^9, 
+   3.698104720611508*^9}, {3.698104820810367*^9, 3.6981048864061527`*^9}, {
+   3.6981049318811083`*^9, 3.6981049371626577`*^9}, {3.698104974312196*^9, 
+   3.698105053848159*^9}, {3.6981050971947327`*^9, 3.698105223795965*^9}, {
+   3.698105258386764*^9, 3.698105286553149*^9}, {3.698105359260725*^9, 
+   3.698105422591269*^9}, {3.698105468281255*^9, 3.698105567263129*^9}, {
+   3.698105836850409*^9, 3.698105887027714*^9}, {3.698105957148849*^9, 
+   3.6981059891804953`*^9}, {3.698112956874159*^9, 3.6981130113880043`*^9}, {
+   3.698113088155905*^9, 3.698113179244503*^9}, {3.698113596632722*^9, 
+   3.698113596803813*^9}, {3.698113627577681*^9, 3.698113632437909*^9}, {
+   3.698113675627557*^9, 3.698113683083775*^9}, {3.698113719532523*^9, 
+   3.69811375911835*^9}, {3.698115187463608*^9, 3.698115219005073*^9}, {
+   3.698115291644436*^9, 3.698115327822507*^9}, {3.698115366035969*^9, 
+   3.698115428683066*^9}, {3.69811546127542*^9, 3.698115502937236*^9}, {
+   3.6981155550851927`*^9, 3.69811557603833*^9}, 3.6981156341138144`*^9, {
+   3.698115665982147*^9, 3.698115885124153*^9}, {3.698115916793228*^9, 
+   3.698116078977376*^9}, {3.698116138924239*^9, 3.698116160514662*^9}, {
+   3.698116203277495*^9, 3.698116276469174*^9}, {3.6981163236228027`*^9, 
+   3.69811634756435*^9}, {3.698116378239078*^9, 3.698116387098854*^9}, {
+   3.698116434545084*^9, 3.698116570491259*^9}, {3.698116614177984*^9, 
+   3.6981166498758097`*^9}, {3.6981166819413424`*^9, 3.698116747244747*^9}, {
+   3.698116793209306*^9, 3.698116810674807*^9}, {3.698116894383491*^9, 
+   3.698116898918537*^9}, {3.698116937859762*^9, 3.698116954083449*^9}, {
+   3.698117046929385*^9, 3.69811705460268*^9}, {3.698117089506364*^9, 
+   3.698117339951868*^9}, {3.6981174027958317`*^9, 3.698117402801272*^9}, {
+   3.698117635313978*^9, 3.698117656855867*^9}}],
 
-Cell[BoxData["29"], "Output",
- CellChangeTimes->{3.698101859844432*^9, 3.698102217623294*^9, 
-  3.69810239202619*^9, 3.698102484847933*^9, 3.69810255655995*^9, 
-  3.6981027199631233`*^9, 3.698102764065172*^9, 3.698102844372532*^9}],
+Cell[BoxData["\<\"I LOVE VODKA\"\>"], "Output",
+ CellChangeTimes->{3.6981174069403954`*^9, 3.6981176635683928`*^9}],
 
-Cell[CellGroupData[{
+Cell[BoxData["\<\"ILOVEVODKA\"\>"], "Output",
+ CellChangeTimes->{3.6981174069403954`*^9, 3.698117663576116*^9}],
 
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"1\\\"}]\\) to letter A\"\
-\>",
-  StringForm["Number: `` to letter ``", 1, "A"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844380127*^9}],
+Cell[BoxData["\<\"ILOVEVODKA\"\>"], "Print",
+ CellChangeTimes->{3.6981174069530907`*^9, 3.698117663581929*^9}],
 
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"2\\\"}]\\) to letter B\"\
-\>",
-  StringForm["Number: `` to letter ``", 2, "B"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844385439*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"3\\\"}]\\) to letter C\"\
-\>",
-  StringForm["Number: `` to letter ``", 3, "C"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.69810284439287*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"4\\\"}]\\) to letter D\"\
-\>",
-  StringForm["Number: `` to letter ``", 4, "D"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844398134*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"5\\\"}]\\) to letter E\"\
-\>",
-  StringForm["Number: `` to letter ``", 5, "E"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844403488*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"6\\\"}]\\) to letter F\"\
-\>",
-  StringForm["Number: `` to letter ``", 6, "F"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844409749*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"7\\\"}]\\) to letter G\"\
-\>",
-  StringForm["Number: `` to letter ``", 7, "G"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844415015*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"8\\\"}]\\) to letter H\"\
-\>",
-  StringForm["Number: `` to letter ``", 8, "H"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.69810284442041*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"9\\\"}]\\) to letter I\"\
-\>",
-  StringForm["Number: `` to letter ``", 9, "I"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844425563*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"10\\\"}]\\) to letter \
-J\"\>",
-  StringForm["Number: `` to letter ``", 10, "J"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844430655*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"11\\\"}]\\) to letter \
-K\"\>",
-  StringForm["Number: `` to letter ``", 11, "K"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844436037*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"12\\\"}]\\) to letter \
-L\"\>",
-  StringForm["Number: `` to letter ``", 12, "L"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844441162*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"13\\\"}]\\) to letter \
-M\"\>",
-  StringForm["Number: `` to letter ``", 13, "M"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.6981028444464083`*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"14\\\"}]\\) to letter \
-N\"\>",
-  StringForm["Number: `` to letter ``", 14, "N"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844451663*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"15\\\"}]\\) to letter \
-O\"\>",
-  StringForm["Number: `` to letter ``", 15, "O"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844454664*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"16\\\"}]\\) to letter \
-P\"\>",
-  StringForm["Number: `` to letter ``", 16, "P"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844457552*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"17\\\"}]\\) to letter \
-Q\"\>",
-  StringForm["Number: `` to letter ``", 17, "Q"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844460517*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"18\\\"}]\\) to letter \
-R\"\>",
-  StringForm["Number: `` to letter ``", 18, "R"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844463437*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"19\\\"}]\\) to letter \
-S\"\>",
-  StringForm["Number: `` to letter ``", 19, "S"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.6981028444664993`*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"20\\\"}]\\) to letter \
-T\"\>",
-  StringForm["Number: `` to letter ``", 20, "T"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844470059*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"21\\\"}]\\) to letter \
-U\"\>",
-  StringForm["Number: `` to letter ``", 21, "U"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844473495*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"22\\\"}]\\) to letter \
-V\"\>",
-  StringForm["Number: `` to letter ``", 22, "V"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844476761*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"23\\\"}]\\) to letter \
-W\"\>",
-  StringForm["Number: `` to letter ``", 23, "W"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844479679*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"24\\\"}]\\) to letter \
-X\"\>",
-  StringForm["Number: `` to letter ``", 24, "X"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.69810284448267*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"25\\\"}]\\) to letter \
-Y\"\>",
-  StringForm["Number: `` to letter ``", 25, "Y"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844485553*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"26\\\"}]\\) to letter \
-Z\"\>",
-  StringForm["Number: `` to letter ``", 26, "Z"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844488649*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"27\\\"}]\\) to letter  \
-\"\>",
-  StringForm["Number: `` to letter ``", 27, " "],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844491549*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"28\\\"}]\\) to letter \
-.\"\>",
-  StringForm["Number: `` to letter ``", 28, "."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.6981028444944973`*^9}],
-
-Cell[BoxData[
- InterpretationBox["\<\"Number: \\!\\(\\*RowBox[{\\\"0\\\"}]\\) to letter ,\"\
-\>",
-  StringForm["Number: `` to letter ``", 0, ","],
-  Editable->False]], "Print",
- CellChangeTimes->{3.698102217654098*^9, 3.6981023920585213`*^9, 
-  3.698102484878817*^9, 3.6981025565901318`*^9, 3.698102719999511*^9, 
-  3.698102764072269*^9, 3.698102844497469*^9}]
-}, Open  ]]
+Cell[BoxData["\<\"EDYDOBEBOM\"\>"], "Output",
+ CellChangeTimes->{3.6981174069403954`*^9, 3.698117663587347*^9}]
 }, Open  ]]
 },
-WindowSize->{873, 709},
+WindowSize->{741, 709},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
 21, 2016)",
@@ -457,39 +338,11 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 6699, 147, 747, "Input"],
-Cell[7282, 171, 231, 3, 32, "Output"],
-Cell[CellGroupData[{
-Cell[7538, 178, 360, 7, 24, "Print"],
-Cell[7901, 187, 360, 7, 24, "Print"],
-Cell[8264, 196, 359, 7, 24, "Print"],
-Cell[8626, 205, 360, 7, 24, "Print"],
-Cell[8989, 214, 360, 7, 24, "Print"],
-Cell[9352, 223, 360, 7, 24, "Print"],
-Cell[9715, 232, 360, 7, 24, "Print"],
-Cell[10078, 241, 359, 7, 24, "Print"],
-Cell[10440, 250, 360, 7, 24, "Print"],
-Cell[10803, 259, 362, 7, 24, "Print"],
-Cell[11168, 268, 362, 7, 24, "Print"],
-Cell[11533, 277, 362, 7, 24, "Print"],
-Cell[11898, 286, 364, 7, 24, "Print"],
-Cell[12265, 295, 362, 7, 24, "Print"],
-Cell[12630, 304, 362, 7, 24, "Print"],
-Cell[12995, 313, 362, 7, 24, "Print"],
-Cell[13360, 322, 362, 7, 24, "Print"],
-Cell[13725, 331, 362, 7, 24, "Print"],
-Cell[14090, 340, 364, 7, 24, "Print"],
-Cell[14457, 349, 362, 7, 24, "Print"],
-Cell[14822, 358, 362, 7, 24, "Print"],
-Cell[15187, 367, 362, 7, 24, "Print"],
-Cell[15552, 376, 362, 7, 24, "Print"],
-Cell[15917, 385, 361, 7, 24, "Print"],
-Cell[16281, 394, 362, 7, 24, "Print"],
-Cell[16646, 403, 362, 7, 24, "Print"],
-Cell[17011, 412, 362, 7, 24, "Print"],
-Cell[17376, 421, 364, 7, 24, "Print"],
-Cell[17743, 430, 360, 7, 24, "Print"]
-}, Open  ]]
+Cell[580, 22, 13652, 285, 1482, "Input"],
+Cell[14235, 309, 115, 1, 32, "Output"],
+Cell[14353, 312, 111, 1, 32, "Output"],
+Cell[14467, 315, 110, 1, 24, "Print"],
+Cell[14580, 318, 111, 1, 32, "Output"]
 }, Open  ]]
 }
 ]
