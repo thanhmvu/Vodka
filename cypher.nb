@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     48755,       1188]
-NotebookOptionsPosition[     48495,       1174]
-NotebookOutlinePosition[     48853,       1190]
-CellTagsIndexPosition[     48810,       1187]
+NotebookDataLength[     48808,       1188]
+NotebookOptionsPosition[     48548,       1174]
+NotebookOutlinePosition[     48906,       1190]
+CellTagsIndexPosition[     48863,       1187]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -427,7 +427,7 @@ Cell[BoxData[
                     "--", "--"}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]\
 }]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}], "*)"}], 
    RowBox[{
-   "(*", "                                         ", "EXCERCISES", 
+   "(*", "                                         ", "EXERCISES", 
     "                                         ", "*)"}], 
    "\[IndentingNewLine]", 
    RowBox[{"(*", 
@@ -541,7 +541,7 @@ Cell[BoxData[
        RowBox[{"--", 
         RowBox[{"--", 
          RowBox[{"--", 
-          RowBox[{"--", " ", "Excercise"}]}]}]}]}]}], " ", 
+          RowBox[{"--", " ", "Exercise"}]}]}]}]}]}], " ", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -551,7 +551,7 @@ Cell[BoxData[
     " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
-    "Print", "[", "\"\<------------ Excercise 1 ------------\>\"", "]"}], 
+    "Print", "[", "\"\<------------ Exercise 1 ------------\>\"", "]"}], 
     ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"encodeMatrix", " ", "=", " ", 
@@ -577,7 +577,7 @@ Cell[BoxData[
        RowBox[{"--", 
         RowBox[{"--", 
          RowBox[{"--", 
-          RowBox[{"--", " ", "Excercise"}]}]}]}]}]}], " ", 
+          RowBox[{"--", " ", "Exercise"}]}]}]}]}]}], " ", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -587,7 +587,7 @@ Cell[BoxData[
     " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
-    "Print", "[", "\"\<------------ Excercise 2 ------------\>\"", "]"}], 
+    "Print", "[", "\"\<------------ Exercise 2 ------------\>\"", "]"}], 
     ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"decodeMatrix", " ", "=", " ", 
@@ -608,7 +608,7 @@ Cell[BoxData[
        RowBox[{"--", 
         RowBox[{"--", 
          RowBox[{"--", 
-          RowBox[{"--", " ", "Excercise"}]}]}]}]}]}], " ", 
+          RowBox[{"--", " ", "Exercise"}]}]}]}]}]}], " ", 
      RowBox[{
       RowBox[{
        RowBox[{
@@ -618,7 +618,7 @@ Cell[BoxData[
     " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
-    "Print", "[", "\"\<------------ Excercise 3 ------------\>\"", "]"}], 
+    "Print", "[", "\"\<------------ Exercise 3 ------------\>\"", "]"}], 
     ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"cyberText", " ", "=", " ", "\"\<BLBWOPTGKNRMDA\>\""}], ";"}], 
@@ -652,7 +652,7 @@ Cell[BoxData[
         RowBox[{"--", 
          RowBox[{"--", 
           RowBox[{"--", 
-           RowBox[{"--", " ", "Excercise"}]}]}]}]}]}], " ", "3"}], " ", "-", 
+           RowBox[{"--", " ", "Exercise"}]}]}]}]}]}], " ", "3"}], " ", "-", 
      " ", 
      RowBox[{
       RowBox[{"extended", " ", "--"}], 
@@ -662,7 +662,7 @@ Cell[BoxData[
          RowBox[{"--", "--"}]}]}]}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
-    "Print", "[", "\"\<------------ More on Excercise 3 ------------\>\"", 
+    "Print", "[", "\"\<------------ More on Exercise 3 ------------\>\"", 
      "]"}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"encodeMatrix", " ", "=", " ", 
@@ -694,14 +694,13 @@ its output returns an error\>\"", "]"}], "\[IndentingNewLine]",
            RowBox[{"20", ",", "9"}], "}"}], ",", 
           RowBox[{"{", 
            RowBox[{"8", ",", "19"}], "}"}]}], "}"}]}], ",", "26"}], "]"}]}], 
-    ";"}], 
-   RowBox[{"(*", " ", 
-    RowBox[{"output", " ", "results", " ", "of", " ", "encoding", " ", 
-     RowBox[{"{", 
-      RowBox[{"20", ",", "9"}], "}"}], " ", "and", 
-     RowBox[{"{", 
-      RowBox[{"8", ",", "19"}], "}"}]}], "*)"}], "\[IndentingNewLine]", 
-   RowBox[{
+    ";", 
+    RowBox[{"(*", " ", 
+     RowBox[{"output", " ", "results", " ", "of", " ", "encoding", " ", 
+      RowBox[{"{", 
+       RowBox[{"20", ",", "9"}], "}"}], " ", "and", 
+      RowBox[{"{", 
+       RowBox[{"8", ",", "19"}], "}"}]}], "*)"}], "\[IndentingNewLine]", 
     RowBox[{"Mod", "[", 
      RowBox[{
       RowBox[{"out", ".", " ", 
@@ -730,26 +729,26 @@ encodeMatrix from its output\>\"", "]"}], "\[IndentingNewLine]",
            RowBox[{"20", ",", "9"}], "}"}], ",", 
           RowBox[{"{", 
            RowBox[{"8", ",", "19"}], "}"}]}], "}"}]}], ",", "29"}], "]"}]}], 
-    ";"}], 
-   RowBox[{"(*", " ", 
-    RowBox[{"output", " ", "results", " ", "of", " ", "encoding", " ", 
-     RowBox[{"{", 
-      RowBox[{"20", ",", "9"}], "}"}], " ", "and", 
-     RowBox[{"{", 
-      RowBox[{"8", ",", "19"}], "}"}]}], "*)"}], "\[IndentingNewLine]", 
-   RowBox[{"Mod", "[", 
-    RowBox[{
-     RowBox[{"out", ".", " ", 
-      RowBox[{"Inverse", "[", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"20", ",", "9"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"8", ",", "19"}], "}"}]}], "}"}], ",", " ", 
-        RowBox[{"Modulus", "\[Rule]", "29"}]}], "]"}]}], ",", "29"}], "]"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    ";", 
+    RowBox[{"(*", " ", 
+     RowBox[{"output", " ", "results", " ", "of", " ", "encoding", " ", 
+      RowBox[{"{", 
+       RowBox[{"20", ",", "9"}], "}"}], " ", "and", 
+      RowBox[{"{", 
+       RowBox[{"8", ",", "19"}], "}"}]}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"Mod", "[", 
+     RowBox[{
+      RowBox[{"out", ".", " ", 
+       RowBox[{"Inverse", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"20", ",", "9"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"8", ",", "19"}], "}"}]}], "}"}], ",", " ", 
+         RowBox[{"Modulus", "\[Rule]", "29"}]}], "]"}]}], ",", "29"}], 
+     "]"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{">>>", " ", 
      RowBox[{"Test", " ", "alphabet29"}]}], "*)"}], "\[IndentingNewLine]", 
@@ -1170,7 +1169,8 @@ encodeMatrix from its output\>\"", "]"}], "\[IndentingNewLine]",
    3.698180434483684*^9}, {3.6981804913869867`*^9, 3.6981806526478653`*^9}, {
    3.6981807184241133`*^9, 3.698180817180416*^9}, {3.6981808768397627`*^9, 
    3.69818087877262*^9}, {3.69818109317634*^9, 3.69818110821756*^9}, {
-   3.6981811500691633`*^9, 3.698181173898633*^9}}]
+   3.6981811500691633`*^9, 3.698181173898633*^9}, {3.698187878912025*^9, 
+   3.698187904804014*^9}}]
 },
 WindowSize->{1267, 709},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
@@ -1189,7 +1189,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 47933, 1152, 3750, "Input"]
+Cell[558, 20, 47986, 1152, 3750, "Input"]
 }
 ]
 *)
