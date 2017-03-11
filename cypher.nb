@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     39263,        934]
-NotebookOptionsPosition[     39004,        920]
-NotebookOutlinePosition[     39362,        936]
-CellTagsIndexPosition[     39319,        933]
+NotebookDataLength[     48755,       1188]
+NotebookOptionsPosition[     48495,       1174]
+NotebookOutlinePosition[     48853,       1190]
+CellTagsIndexPosition[     48810,       1187]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,21 +21,131 @@ Notebook[{
 Cell[BoxData[
  RowBox[{
   RowBox[{"(*", 
-   RowBox[{
-    RowBox[{"===", "===", "===", "==="}], "=", 
-    RowBox[{
-     RowBox[{"===", "===", "===", "==="}], "=", " ", 
-     RowBox[{"Methods", " ", "===", "===", "===", 
-      RowBox[{"==", "=="}], "===", 
-      RowBox[{"==", 
-       RowBox[{"===", "===", "=="}]}]}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"--", 
+    RowBox[{"--", 
+     RowBox[{"--", 
+      RowBox[{"--", 
+       RowBox[{"--", 
+        RowBox[{"-", 
+         RowBox[{"--", 
+          RowBox[{"--", 
+           RowBox[{"--", 
+            RowBox[{"--", 
+             RowBox[{"--", 
+              RowBox[{"--", 
+               RowBox[{"--", 
+                RowBox[{"--", 
+                 RowBox[{"--", 
+                  RowBox[{"--", 
+                   RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"-", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{
+                    "--", "--"}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]\
+}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}], "*)"}], 
+  RowBox[{
+  "(*", "                                          ", "METHODS", 
+   "                                           ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"--", 
+    RowBox[{"--", 
+     RowBox[{"--", 
+      RowBox[{"--", 
+       RowBox[{"--", 
+        RowBox[{"--", 
+         RowBox[{"--", 
+          RowBox[{"--", 
+           RowBox[{"--", 
+            RowBox[{"--", 
+             RowBox[{"--", 
+              RowBox[{"--", 
+               RowBox[{"--", 
+                RowBox[{"--", 
+                 RowBox[{"--", 
+                  RowBox[{"--", 
+                   RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{
+                    "--", "--"}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]\
+}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}], "*)"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", 
   RowBox[{"(*", "\[IndentingNewLine]", 
    RowBox[{
-   "ADD", " ", "COMMENT", " ", "ABOUT", " ", "THE", " ", "FUNCTION", " ", 
-    "HERE"}], "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+    RowBox[{
+    "This", " ", "function", " ", "converts", " ", "text", " ", "using", " ", 
+     "matrix", " ", 
+     RowBox[{"multiplication", ".", " ", "The"}], " ", "function", " ", "can",
+      " ", "be", " ", "used", " ", "for", " ", "encrypting", " ", "plaintext",
+      " ", "if", " ", "given", " ", "matrix", " ", "is", " ", "a", " ", 
+     "square", " ", "matrix", " ", "A", " ", "of", " ", "size", " ", "at", 
+     " ", "least", " ", "2.", " ", "Or", " ", "it", " ", "can", " ", "be", 
+     " ", "used", " ", "for", " ", "decrypting", " ", "cybertext", " ", "if", 
+     " ", "given", " ", "matrix", " ", "is", " ", "the", " ", "invert", " ", 
+     "matrix", " ", "of", " ", 
+     RowBox[{"A", ".", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"@", " ", "alphabet"}]}]}], " ", "-", " ", 
+    RowBox[{"the", " ", "alphabet", " ", "of", " ", "the", " ", "input", " ", 
+     RowBox[{"text", "\[IndentingNewLine]", "@", " ", "cypherMatrix"}]}], " ",
+     "-", " ", 
+    RowBox[{"the", " ", "matrix", " ", "used", " ", "to", " ", "convert", " ", 
+     RowBox[{"text", "\[IndentingNewLine]", "@", " ", "inputText"}]}], " ", 
+    "-", " ", 
+    RowBox[{"the", " ", "text", " ", "to", " ", "convert"}]}], 
+   "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{
-    RowBox[{"cypherBuilder", " ", "=", " ", 
+    RowBox[{"enigma", " ", "=", " ", 
      RowBox[{"Function", "[", "\[IndentingNewLine]", 
       RowBox[{"(*", " ", 
        RowBox[{
@@ -80,14 +190,13 @@ Cell[BoxData[
          RowBox[{"Length", "[", "cypherMatrix", "]"}]}], ";", " ", 
         "\[IndentingNewLine]", 
         RowBox[{"plainText", " ", "=", " ", "inputText"}], ";", 
-        "\[IndentingNewLine]", 
-        RowBox[{"Print", "[", "plainText", "]"}], ";", "\[IndentingNewLine]", 
-        "\[IndentingNewLine]", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
         RowBox[{"(*", 
-         RowBox[{
-         "Create", " ", "a", " ", "dictionary", " ", "for", " ", "converting",
-           " ", "letters", " ", "to", " ", "numbers"}], "*)"}], 
-        "\[IndentingNewLine]", 
+         RowBox[{">>>", " ", 
+          RowBox[{
+          "Create", " ", "a", " ", "dictionary", " ", "for", " ", 
+           "converting", " ", "letters", " ", "to", " ", "numbers"}]}], 
+         "*)"}], "\[IndentingNewLine]", 
         RowBox[{"Do", "[", "\[IndentingNewLine]", 
          RowBox[{
           RowBox[{
@@ -113,10 +222,11 @@ Cell[BoxData[
            RowBox[{"i", ",", "alphabetSize"}], "}"}]}], "\[IndentingNewLine]",
           "]"}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
         RowBox[{"(*", 
-         RowBox[{
-         "Create", " ", "a", " ", "dictionary", " ", "for", " ", "converting",
-           " ", "numbers", " ", "to", " ", "letters"}], "*)"}], 
-        "\[IndentingNewLine]", 
+         RowBox[{">>>", " ", 
+          RowBox[{
+          "Create", " ", "a", " ", "dictionary", " ", "for", " ", 
+           "converting", " ", "numbers", " ", "to", " ", "letters"}]}], 
+         "*)"}], "\[IndentingNewLine]", 
         RowBox[{"Do", "[", "\[IndentingNewLine]", 
          RowBox[{
           RowBox[{
@@ -139,19 +249,19 @@ Cell[BoxData[
           RowBox[{"{", 
            RowBox[{"i", ",", "alphabetSize"}], "}"}]}], "\[IndentingNewLine]",
           "]"}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{"(*", 
+         RowBox[{">>>", " ", 
+          RowBox[{"Remove", " ", "space"}]}], "*)"}], "\[IndentingNewLine]", 
         RowBox[{"plainText", " ", "=", " ", 
          RowBox[{"StringReplace", "[", 
           RowBox[{"plainText", ",", 
-           RowBox[{"\"\< \>\"", "->", "\"\<\>\""}]}], "]"}]}], ";", " ", 
-        RowBox[{"(*", 
-         RowBox[{
-         "MAY", " ", "WANT", " ", "TO", " ", "REMOVE", " ", "THIS", " ", "IF",
-           " ", "ALPHABET", " ", "HAS", " ", "SPACE"}], "*)"}], 
+           RowBox[{"\"\< \>\"", "->", "\"\<\>\""}]}], "]"}]}], ";", 
         "\[IndentingNewLine]", "\[IndentingNewLine]", 
         RowBox[{"(*", 
-         RowBox[{
-         "Add", " ", "dummy", " ", "characters", " ", "if", " ", "needed"}], 
-         "*)"}], "\[IndentingNewLine]", 
+         RowBox[{">>>", " ", 
+          RowBox[{
+          "Add", " ", "dummy", " ", "leters", " ", "at", " ", "the", " ", 
+           "end", " ", "if", " ", "needed"}]}], "*)"}], "\[IndentingNewLine]", 
         RowBox[{"Do", "[", 
          RowBox[{
           RowBox[{"plainText", " ", "=", " ", 
@@ -166,15 +276,18 @@ Cell[BoxData[
         ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
         RowBox[{"plainChars", " ", "=", " ", 
          RowBox[{"Characters", "[", "plainText", "]"}]}], ";", 
-        "\[IndentingNewLine]", "\[IndentingNewLine]", 
-        RowBox[{"(*", 
-         RowBox[{"Encript", " ", "input", " ", "string"}], "*)"}], 
         "\[IndentingNewLine]", 
         RowBox[{"cypherChars", " ", "=", " ", 
          RowBox[{"{", "}"}]}], ";", " ", "\[IndentingNewLine]", 
-        RowBox[{"Do", "[", " ", "\[IndentingNewLine]", 
+        RowBox[{"(*", 
+         RowBox[{">>>", " ", 
+          RowBox[{
+          "Group", " ", "letters", " ", "into", " ", "vectors", " ", "to", 
+           " ", "encrypt"}]}], "*)"}], "\[IndentingNewLine]", 
+        RowBox[{"Do", "[", "  ", "\[IndentingNewLine]", 
          RowBox[{"(*", 
-          RowBox[{"create", " ", "a", " ", "vector"}], "*)"}], 
+          RowBox[{">>>", " ", 
+           RowBox[{"Create", " ", "a", " ", "vector"}]}], "*)"}], 
          "\[IndentingNewLine]", 
          RowBox[{
           RowBox[{
@@ -199,9 +312,10 @@ Cell[BoxData[
             "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
            "\[IndentingNewLine]", 
            RowBox[{"(*", 
-            RowBox[{
-            "encrypt", " ", "vector", " ", "using", " ", "matrix", " ", 
-             "multiplication"}], "*)"}], "\[IndentingNewLine]", 
+            RowBox[{">>>", " ", 
+             RowBox[{
+             "Encrypt", " ", "vector", " ", "using", " ", "matrix", " ", 
+              "multiplication"}]}], "*)"}], "\[IndentingNewLine]", 
            RowBox[{"cypherVect", " ", "=", " ", 
             RowBox[{"Mod", "[", 
              RowBox[{
@@ -209,9 +323,10 @@ Cell[BoxData[
               "alphabetSize"}], "]"}]}], ";", "\[IndentingNewLine]", 
            "\[IndentingNewLine]", 
            RowBox[{"(*", 
-            RowBox[{
-            "convert", " ", "encrypted", " ", "vector", " ", "to", " ", 
-             "cypher", " ", "characters"}], "*)"}], "\[IndentingNewLine]", 
+            RowBox[{">>>", " ", 
+             RowBox[{
+             "Convert", " ", "encrypted", " ", "vector", " ", "to", " ", 
+              "characters"}]}], "*)"}], "\[IndentingNewLine]", 
            RowBox[{"Do", "[", "\[IndentingNewLine]", 
             RowBox[{
              RowBox[{
@@ -230,6 +345,22 @@ Cell[BoxData[
             RowBox[{"StringLength", "[", "plainText", "]"}], ",", 
             "matrixSize"}], "}"}]}], "\[IndentingNewLine]", "]"}], ";", 
         "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{"(*", 
+         RowBox[{">>>", " ", 
+          RowBox[{
+          "Convert", " ", "cypher", " ", "characters", " ", "to", " ", 
+           "cypher", " ", "string"}]}], "*)"}], "\[IndentingNewLine]", 
+        RowBox[{"cyberText", " ", "=", " ", 
+         RowBox[{"StringJoin", "[", "cypherChars", "]"}]}], ";", 
+        "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{"Print", "[", 
+         RowBox[{"StringForm", "[", " ", 
+          RowBox[{"\"\<Input text: ``\>\"", ",", "inputText"}], "]"}], "]"}], 
+        ";", "\[IndentingNewLine]", 
+        RowBox[{"Print", "[", 
+         RowBox[{"StringForm", "[", 
+          RowBox[{"\"\<Ouput text: ``\>\"", ",", "cyberText"}], "]"}], "]"}], 
+        ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
         RowBox[{"(*", " ", 
          RowBox[{
           RowBox[{"--", 
@@ -244,34 +375,108 @@ Cell[BoxData[
              RowBox[{
               RowBox[{
                RowBox[{"cyphertext", " ", "--"}], "--"}], "--"}], "--"}], 
-            "--"}], "--"}]}], " ", "*)"}], "\[IndentingNewLine]", 
-        RowBox[{"StringJoin", "[", "cypherChars", "]"}]}]}], 
-      "\[IndentingNewLine]", "]"}]}], ";"}], "\[IndentingNewLine]", 
+            "--"}], "--"}]}], " ", "*)"}], " ", "\[IndentingNewLine]", 
+        "cyberText"}]}], "\[IndentingNewLine]", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"--", 
+     RowBox[{"--", 
+      RowBox[{"--", 
+       RowBox[{"--", 
+        RowBox[{"--", 
+         RowBox[{"-", 
+          RowBox[{"--", 
+           RowBox[{"--", 
+            RowBox[{"--", 
+             RowBox[{"--", 
+              RowBox[{"--", 
+               RowBox[{"--", 
+                RowBox[{"--", 
+                 RowBox[{"--", 
+                  RowBox[{"--", 
+                   RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"-", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{
+                    "--", "--"}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]\
+}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}], "*)"}], 
+   RowBox[{
+   "(*", "                                         ", "EXCERCISES", 
+    "                                         ", "*)"}], 
    "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{
-     RowBox[{"===", "===", "===", "==="}], "=", 
-     RowBox[{
-     "===", "===", "===", "===", " ", "MAIN", " ", "===", "===", "===", "===", 
-      RowBox[{"==", 
-       RowBox[{"===", 
-        RowBox[{"==", 
-         RowBox[{"===", "===", "=="}]}]}]}]}]}], "*)"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{"(*", 
-    RowBox[{
-     RowBox[{"alphabet", " ", "=", " ", 
-      RowBox[{"{", 
-       RowBox[{
-       "\"\<A\>\"", ",", "\"\<B\>\"", ",", "\"\<C\>\"", ",", "\"\<D\>\"", 
-        ",", "\"\<E\>\"", ",", "\"\<F\>\"", ",", "\"\<G\>\"", ",", 
-        "\"\<H\>\"", ",", "\"\<I\>\"", ",", "\"\<J\>\"", ",", "\"\<K\>\"", 
-        ",", "\"\<L\>\"", ",", "\"\<M\>\"", ",", "\"\<N\>\"", ",", 
-        "\"\<O\>\"", ",", "\"\<P\>\"", ",", "\"\<Q\>\"", ",", "\"\<R\>\"", 
-        ",", "\"\<S\>\"", ",", "\"\<T\>\"", ",", "\"\<U\>\"", ",", 
-        "\"\<V\>\"", ",", "\"\<W\>\"", ",", "\"\<X\>\"", ",", "\"\<Y\>\"", 
-        ",", "\"\<Z\>\"", ",", "\"\< \>\"", ",", "\"\<.\>\"", ",", 
-        "\"\<,\>\""}], "}"}]}], ";"}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{"--", 
+     RowBox[{"--", 
+      RowBox[{"--", 
+       RowBox[{"--", 
+        RowBox[{"--", 
+         RowBox[{"--", 
+          RowBox[{"--", 
+           RowBox[{"--", 
+            RowBox[{"--", 
+             RowBox[{"--", 
+              RowBox[{"--", 
+               RowBox[{"--", 
+                RowBox[{"--", 
+                 RowBox[{"--", 
+                  RowBox[{"--", 
+                   RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{
+                    "--", "--"}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]\
+}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"alphabet", " ", "=", " ", 
      RowBox[{"{", 
@@ -299,14 +504,24 @@ Cell[BoxData[
                RowBox[{"Example", " ", "--"}], "--"}], "--"}], "--"}], "--"}],
             "--"}]}]}]}]}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
+    RowBox[{"Print", "[", "\"\<------------ Example ------------\>\"", "]"}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"plainText", "=", "\"\<I LOVE VODKA\>\""}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"encodeMatrix", " ", "=", " ", 
      RowBox[{"{", 
       RowBox[{
        RowBox[{"{", 
         RowBox[{"1", ",", "4"}], "}"}], ",", 
        RowBox[{"{", 
-        RowBox[{"8", ",", "3"}], "}"}]}], "}"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+        RowBox[{"8", ",", "3"}], "}"}]}], "}"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"cyberText", "=", 
+     RowBox[{"enigma", "[", 
+      RowBox[{"alphabet", ",", "encodeMatrix", ",", "plainText"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"decodeMatrix", " ", "=", " ", 
      RowBox[{"Inverse", "[", 
@@ -315,36 +530,10 @@ Cell[BoxData[
         RowBox[{"Length", "[", "alphabet", "]"}]}]}], "]"}]}], ";"}], 
    "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"plainText", "=", "\"\<I LOVE VODKA\>\""}], ";"}], "\n", 
-   RowBox[{
-    RowBox[{"cyberText", "=", 
-     RowBox[{"cypherBuilder", "[", 
-      RowBox[{"alphabet", ",", "encodeMatrix", ",", "plainText"}], "]"}]}], 
-    ";"}], "\n", 
-   RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Encoded plaintext `` to ``\>\"", ",", "plainText", ",", 
-       "cyberText"}], "]"}], "]"}], ";", " ", 
-    RowBox[{"(*", 
-     RowBox[{
-     "plainText", " ", "REFERS", " ", "TO", " ", "THE", " ", "VAR", " ", "IN",
-       " ", "THE", " ", 
-      RowBox[{
-       RowBox[{"FUNCTION", " ", "!!"}], "!"}]}], "*)"}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    RowBox[{"plainText2", "=", 
-     RowBox[{"cypherBuilder", "[", 
+    RowBox[{"plainText", "=", 
+     RowBox[{"enigma", "[", 
       RowBox[{"alphabet", ",", "decodeMatrix", ",", "cyberText"}], "]"}]}], 
-    ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Decoded cybertext `` to ``\>\"", ",", "cyberText", ",", 
-       "plainText2"}], "]"}], "]"}], ";"}], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
      RowBox[{"--", 
@@ -361,6 +550,10 @@ Cell[BoxData[
           RowBox[{"1", " ", "--"}], "--"}], "--"}], "--"}], "--"}], "--"}]}], 
     " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
+    RowBox[{
+    "Print", "[", "\"\<------------ Excercise 1 ------------\>\"", "]"}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"encodeMatrix", " ", "=", " ", 
      RowBox[{"{", 
       RowBox[{
@@ -368,61 +561,46 @@ Cell[BoxData[
         RowBox[{"1", ",", "1"}], "}"}], ",", 
        RowBox[{"{", 
         RowBox[{"2", ",", "3"}], "}"}]}], "}"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"plainText", "=", "\"\<LINEAR ALGEBRA\>\""}], ";"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"cyberText", "=", 
-     RowBox[{"cypherBuilder", "[", 
+     RowBox[{"enigma", "[", 
       RowBox[{"alphabet", ",", "encodeMatrix", ",", "plainText"}], "]"}]}], 
-    ";"}], "\n", 
-   RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Encoded plaintext `` to ``\>\"", ",", "plainText", ",", 
-       "cyberText"}], "]"}], "]"}], ";", " ", 
-    RowBox[{"(*", 
-     RowBox[{
-     "plainText", " ", "REFERS", " ", "TO", " ", "THE", " ", "VAR", " ", "IN",
-       " ", "THE", " ", 
-      RowBox[{
-       RowBox[{"FUNCTION", " ", "!!"}], "!"}]}], "*)"}], 
-    "\[IndentingNewLine]", "\[IndentingNewLine]", 
-    RowBox[{"(*", " ", 
-     RowBox[{
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"--", 
       RowBox[{"--", 
        RowBox[{"--", 
         RowBox[{"--", 
          RowBox[{"--", 
-          RowBox[{"--", 
-           RowBox[{"--", " ", "Excercise"}]}]}]}]}]}], " ", 
+          RowBox[{"--", " ", "Excercise"}]}]}]}]}]}], " ", 
+     RowBox[{
       RowBox[{
        RowBox[{
         RowBox[{
          RowBox[{
-          RowBox[{
-           RowBox[{"2", " ", "--"}], "--"}], "--"}], "--"}], "--"}], "--"}]}],
-      " ", "*)"}], "\[IndentingNewLine]", 
+          RowBox[{"2", " ", "--"}], "--"}], "--"}], "--"}], "--"}], "--"}]}], 
+    " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+    "Print", "[", "\"\<------------ Excercise 2 ------------\>\"", "]"}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"decodeMatrix", " ", "=", " ", 
      RowBox[{"Inverse", "[", 
       RowBox[{"encodeMatrix", ",", " ", 
        RowBox[{"Modulus", "\[Rule]", 
         RowBox[{"Length", "[", "alphabet", "]"}]}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"plainText2", "=", 
-     RowBox[{"cypherBuilder", "[", 
-      RowBox[{"alphabet", ",", "decodeMatrix", ",", "cyberText"}], "]"}]}], 
-    ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Decoded cybertext `` to ``\>\"", ",", "cyberText", ",", 
-       "plainText2"}], "]"}], "]"}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"plainText", "=", 
+     RowBox[{"enigma", "[", 
+      RowBox[{"alphabet", ",", "decodeMatrix", ",", "cyberText"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
      RowBox[{"--", 
@@ -438,6 +616,10 @@ Cell[BoxData[
          RowBox[{
           RowBox[{"3", " ", "--"}], "--"}], "--"}], "--"}], "--"}], "--"}]}], 
     " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+    "Print", "[", "\"\<------------ Excercise 3 ------------\>\"", "]"}], 
+    ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"cyberText", " ", "=", " ", "\"\<BLBWOPTGKNRMDA\>\""}], ";"}], 
    "\[IndentingNewLine]", 
@@ -456,19 +638,12 @@ Cell[BoxData[
       RowBox[{"encodeMatrix", ",", " ", 
        RowBox[{"Modulus", "\[Rule]", 
         RowBox[{"Length", "[", "alphabet", "]"}]}]}], "]"}]}], " ", ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"plainText", "=", 
-     RowBox[{"cypherBuilder", "[", 
+     RowBox[{"enigma", "[", 
       RowBox[{"alphabet", ",", "decodeMatrix", ",", "cyberText"}], "]"}]}], 
-    ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Decoded cybertext `` to ``\>\"", ",", "cyberText", ",", 
-       "plainText"}], "]"}], "]"}], ";"}], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
      RowBox[{
@@ -486,6 +661,10 @@ Cell[BoxData[
         RowBox[{"--", 
          RowBox[{"--", "--"}]}]}]}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
+    RowBox[{
+    "Print", "[", "\"\<------------ More on Excercise 3 ------------\>\"", 
+     "]"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"encodeMatrix", " ", "=", " ", 
      RowBox[{"{", 
       RowBox[{
@@ -495,13 +674,15 @@ Cell[BoxData[
         RowBox[{"2", ",", "3"}], "}"}]}], "}"}]}], ";"}], 
    "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{
-     RowBox[{"If", " ", "encryption", " ", "uses", " ", "Mod", " ", "26"}], 
-     ",", " ", 
+    RowBox[{">>>", " ", 
      RowBox[{
-     "calculating", " ", "the", " ", "encodeMatrix", " ", "using", " ", "its",
-       " ", "output", " ", "returns", " ", "an", " ", "error"}]}], "*)"}], 
-   "\[IndentingNewLine]", 
+     "Compare", " ", "alphabet", " ", "of", " ", "size", " ", "26", " ", 
+      "with", " ", "that", " ", "of", " ", "size", " ", "29", " ", 
+      RowBox[{"(", "prime", ")"}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "Print", "[", 
+    "\"\<>>> If encrypting uses Mod 26, calculating the encodeMatrix using \
+its output returns an error\>\"", "]"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"out", " ", "=", " ", 
      RowBox[{"Mod", "[", 
@@ -513,13 +694,14 @@ Cell[BoxData[
            RowBox[{"20", ",", "9"}], "}"}], ",", 
           RowBox[{"{", 
            RowBox[{"8", ",", "19"}], "}"}]}], "}"}]}], ",", "26"}], "]"}]}], 
-    ";", 
-    RowBox[{"(*", " ", 
-     RowBox[{"output", " ", "results", " ", "of", " ", "encoding", " ", 
-      RowBox[{"{", 
-       RowBox[{"20", ",", "9"}], "}"}], " ", "and", 
-      RowBox[{"{", 
-       RowBox[{"8", ",", "19"}], "}"}]}], "*)"}], "\[IndentingNewLine]", 
+    ";"}], 
+   RowBox[{"(*", " ", 
+    RowBox[{"output", " ", "results", " ", "of", " ", "encoding", " ", 
+     RowBox[{"{", 
+      RowBox[{"20", ",", "9"}], "}"}], " ", "and", 
+     RowBox[{"{", 
+      RowBox[{"8", ",", "19"}], "}"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"Mod", "[", 
      RowBox[{
       RowBox[{"out", ".", " ", 
@@ -531,16 +713,12 @@ Cell[BoxData[
             RowBox[{"20", ",", "9"}], "}"}], ",", 
            RowBox[{"{", 
             RowBox[{"8", ",", "19"}], "}"}]}], "}"}], ",", " ", 
-         RowBox[{"Modulus", "\[Rule]", "26"}]}], "]"}]}], ",", "26"}], 
-     "]"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   RowBox[{"(*", 
-    RowBox[{
-     RowBox[{"If", " ", "encryption", " ", "uses", " ", "Mod", " ", "29"}], 
-     ",", " ", 
-     RowBox[{
-     "then", " ", "we", " ", "can", " ", "retrieve", " ", "the", " ", 
-      "original", " ", "encodeMatrix", " ", "from", " ", "its", " ", 
-      "output"}]}], "*)"}], "\[IndentingNewLine]", 
+         RowBox[{"Modulus", "\[Rule]", "26"}]}], "]"}]}], ",", "26"}], "]"}], 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+   "Print", "[", 
+    "\"\<>>> But if encrypting uses Mod 29, then we can retrieve the original \
+encodeMatrix from its output\>\"", "]"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"out", " ", "=", " ", 
      RowBox[{"Mod", "[", 
@@ -552,30 +730,33 @@ Cell[BoxData[
            RowBox[{"20", ",", "9"}], "}"}], ",", 
           RowBox[{"{", 
            RowBox[{"8", ",", "19"}], "}"}]}], "}"}]}], ",", "29"}], "]"}]}], 
-    ";", 
-    RowBox[{"(*", " ", 
-     RowBox[{"output", " ", "results", " ", "of", " ", "encoding", " ", 
-      RowBox[{"{", 
-       RowBox[{"20", ",", "9"}], "}"}], " ", "and", 
-      RowBox[{"{", 
-       RowBox[{"8", ",", "19"}], "}"}]}], "*)"}], "\[IndentingNewLine]", 
-    RowBox[{"Mod", "[", 
-     RowBox[{
-      RowBox[{"out", ".", " ", 
-       RowBox[{"Inverse", "[", 
-        RowBox[{
-         RowBox[{"{", 
-          RowBox[{
-           RowBox[{"{", 
-            RowBox[{"20", ",", "9"}], "}"}], ",", 
-           RowBox[{"{", 
-            RowBox[{"8", ",", "19"}], "}"}]}], "}"}], ",", " ", 
-         RowBox[{"Modulus", "\[Rule]", "29"}]}], "]"}]}], ",", "29"}], 
-     "]"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   RowBox[{"(*", 
+    ";"}], 
+   RowBox[{"(*", " ", 
+    RowBox[{"output", " ", "results", " ", "of", " ", "encoding", " ", 
+     RowBox[{"{", 
+      RowBox[{"20", ",", "9"}], "}"}], " ", "and", 
+     RowBox[{"{", 
+      RowBox[{"8", ",", "19"}], "}"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"Mod", "[", 
     RowBox[{
-     RowBox[{"Let", "'"}], "s", " ", "try", " ", "an", " ", "alphabet", " ", 
-     "of", " ", "size", " ", "29"}], "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"out", ".", " ", 
+      RowBox[{"Inverse", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"20", ",", "9"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"8", ",", "19"}], "}"}]}], "}"}], ",", " ", 
+        RowBox[{"Modulus", "\[Rule]", "29"}]}], "]"}]}], ",", "29"}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{">>>", " ", 
+     RowBox[{"Test", " ", "alphabet29"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+   "Print", "[", 
+    "\"\<>>> So let's try this out using an alphabet of size 29\>\"", "]"}], 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"alphabet29", " ", "=", " ", 
      RowBox[{"{", 
@@ -588,27 +769,29 @@ Cell[BoxData[
        ",", "\"\<T\>\"", ",", "\"\<U\>\"", ",", "\"\<V\>\"", ",", "\"\<W\>\"",
         ",", "\"\<X\>\"", ",", "\"\<Y\>\"", ",", "\"\<Z\>\"", ",", 
        "\"\<!\>\"", ",", "\"\<$\>\"", ",", "\"\<~\>\""}], "}"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Print", "[", "alphabet29", "]"}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"plainText", "=", "\"\<THIS CLASS ROCKS\>\""}], ";"}], 
    "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"encode", " ", "the", " ", "plaintext"}], "*)"}], 
+    RowBox[{">>>", " ", 
+     RowBox[{"Encode", " ", "the", " ", "plaintext"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", "\"\<>>> Encode the plaintext\>\"", "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"cyberText", "=", 
-     RowBox[{"cypherBuilder", "[", 
+     RowBox[{"enigma", "[", 
       RowBox[{"alphabet29", ",", "encodeMatrix", ",", "plainText"}], "]"}]}], 
-    ";"}], "\n", 
-   RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Encoded plaintext `` to ``\>\"", ",", "plainText", ",", 
-       "cyberText"}], "]"}], "]"}], ";"}], " ", "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"decode", " ", "the", " ", "cyphertext"}], "*)"}], 
+    RowBox[{">>>", " ", 
+     RowBox[{"Decode", " ", "the", " ", "cyphertext"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", "\"\<>>> Decode the cyphertext\>\"", "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"decodeMatrix", " ", "=", " ", 
@@ -616,19 +799,12 @@ Cell[BoxData[
       RowBox[{"encodeMatrix", ",", " ", 
        RowBox[{"Modulus", "\[Rule]", 
         RowBox[{"Length", "[", "alphabet29", "]"}]}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"plainText2", "=", 
-     RowBox[{"cypherBuilder", "[", 
-      RowBox[{"alphabet29", ",", "decodeMatrix", ",", "cyberText"}], "]"}]}], 
-    ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Decoded cybertext `` to ``\>\"", ",", "cyberText", ",", 
-       "plainText2"}], "]"}], "]"}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"plainText", "=", 
+     RowBox[{"enigma", "[", 
+      RowBox[{"alphabet29", ",", "decodeMatrix", ",", "cyberText"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
      RowBox[{"--", 
@@ -643,6 +819,10 @@ Cell[BoxData[
        RowBox[{"--", 
         RowBox[{"--", "--"}]}]}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
    RowBox[{
+    RowBox[{
+    "Print", "[", "\"\<------------ Just for fun ------------\>\"", "]"}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"alphabet29", " ", "=", " ", 
      RowBox[{"{", 
       RowBox[{
@@ -655,6 +835,15 @@ Cell[BoxData[
         ",", "\"\<X\>\"", ",", "\"\<Y\>\"", ",", "\"\<Z\>\"", ",", 
        "\"\<!\>\"", ",", "\"\<$\>\"", ",", "\"\<~\>\""}], "}"}]}], ";"}], 
    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{">>>", " ", 
+     RowBox[{
+     "Try", " ", "different", " ", "string", " ", "and", " ", "cypher", " ", 
+      "matrix"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+    "Print", "[", "\"\<>>> Try different string and cypher matrix\>\"", "]"}],
+     ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"plainText", "=", "\"\<LINEAR ALGEBRA IS AWESOME!!!\>\""}], ";"}],
     "\[IndentingNewLine]", 
@@ -666,24 +855,26 @@ Cell[BoxData[
         RowBox[{"2", ",", "3"}], "}"}], ",", 
        RowBox[{"{", 
         RowBox[{"0", ",", "5"}], "}"}]}], "}"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Print", "[", "encodeMatrix", "]"}], ";"}], "\[IndentingNewLine]",
+    "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"encode", " ", "the", " ", "plaintext"}], "*)"}], 
+    RowBox[{">>>", " ", 
+     RowBox[{"Encode", " ", "the", " ", "cyphertext"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", "\"\<>>> Encode the plaintext\>\"", "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"cyberText", "=", 
-     RowBox[{"cypherBuilder", "[", 
+     RowBox[{"enigma", "[", 
       RowBox[{"alphabet29", ",", "encodeMatrix", ",", "plainText"}], "]"}]}], 
-    ";"}], "\n", 
-   RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Encoded plaintext `` to ``\>\"", ",", "plainText", ",", 
-       "cyberText"}], "]"}], "]"}], ";"}], " ", "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"decode", " ", "the", " ", "cyphertext"}], "*)"}], 
+    RowBox[{">>>", " ", 
+     RowBox[{"Decode", " ", "the", " ", "cyphertext"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", "\"\<>>> Decode the cyphertext\>\"", "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"decodeMatrix", " ", "=", " ", 
@@ -691,19 +882,21 @@ Cell[BoxData[
       RowBox[{"encodeMatrix", ",", " ", 
        RowBox[{"Modulus", "\[Rule]", 
         RowBox[{"Length", "[", "alphabet29", "]"}]}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"plainText2", "=", 
-     RowBox[{"cypherBuilder", "[", 
+    RowBox[{"plainText", "=", 
+     RowBox[{"enigma", "[", 
       RowBox[{"alphabet29", ",", "decodeMatrix", ",", "cyberText"}], "]"}]}], 
-    ";"}], "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{">>>", " ", 
+     RowBox[{
+     "Try", " ", "different", " ", "string", " ", "and", " ", "cypher", " ", 
+      "matrix"}]}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Decoded cybertext `` to ``\>\"", ",", "cyberText", ",", 
-       "plainText2"}], "]"}], "]"}], ";"}], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    RowBox[{"Print", "[", "\"\<>>> Try different 3x3 matrix\>\"", "]"}], 
+    ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"plainText", "=", "\"\<LINEAR ALGEBRA IS AWESOME!!!\>\""}], ";"}],
     "\[IndentingNewLine]", 
@@ -719,22 +912,21 @@ Cell[BoxData[
         RowBox[{"1", ",", "1", ",", "2"}], "}"}]}], "}"}]}], ";"}], 
    "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"encode", " ", "the", " ", "plaintext"}], "*)"}], 
+    RowBox[{">>>", " ", 
+     RowBox[{"Encode", " ", "the", " ", "plaintext"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", "\"\<>>> Encode the plaintext\>\"", "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"cyberText", "=", 
-     RowBox[{"cypherBuilder", "[", 
+     RowBox[{"enigma", "[", 
       RowBox[{"alphabet29", ",", "encodeMatrix", ",", "plainText"}], "]"}]}], 
-    ";"}], "\n", 
-   RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Encoded plaintext `` to ``\>\"", ",", "plainText", ",", 
-       "cyberText"}], "]"}], "]"}], ";"}], " ", "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"decode", " ", "the", " ", "cyphertext"}], "*)"}], 
+    RowBox[{">>>", " ", 
+     RowBox[{"Decode", " ", "the", " ", "cyphertext"}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Print", "[", "\"\<>>> Decode the cyphertext\>\"", "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"decodeMatrix", " ", "=", " ", 
@@ -742,19 +934,65 @@ Cell[BoxData[
       RowBox[{"encodeMatrix", ",", " ", 
        RowBox[{"Modulus", "\[Rule]", 
         RowBox[{"Length", "[", "alphabet29", "]"}]}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"plainText2", "=", 
-     RowBox[{"cypherBuilder", "[", 
+    RowBox[{"plainText", "=", 
+     RowBox[{"enigma", "[", 
       RowBox[{"alphabet29", ",", "decodeMatrix", ",", "cyberText"}], "]"}]}], 
-    ";"}], "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"--", 
+     RowBox[{"--", 
+      RowBox[{"--", 
+       RowBox[{"--", 
+        RowBox[{"--", 
+         RowBox[{"-", 
+          RowBox[{"--", 
+           RowBox[{"--", 
+            RowBox[{"--", 
+             RowBox[{"--", 
+              RowBox[{"--", 
+               RowBox[{"--", 
+                RowBox[{"--", 
+                 RowBox[{"--", 
+                  RowBox[{"--", 
+                   RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"-", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{"--", 
+                    RowBox[{
+                    "--", "--"}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]\
+}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}], "*)"}], 
    RowBox[{
-    RowBox[{"Print", "[", 
-     RowBox[{"StringForm", "[", 
-      RowBox[{
-      "\"\<Decoded cybertext `` to ``\>\"", ",", "cyberText", ",", 
-       "plainText2"}], "]"}], "]"}], ";"}], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "(*", "                                          ", "OUTPUT", 
+    "                                            ", "*)"}], 
+   "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{"--", 
      RowBox[{"--", 
@@ -916,9 +1154,25 @@ Cell[BoxData[
    3.698176382871746*^9}, {3.6981764422667007`*^9, 3.698176454967415*^9}, {
    3.698176619793848*^9, 3.698176624292644*^9}, {3.6981766548849916`*^9, 
    3.698176702159808*^9}, {3.698176748630439*^9, 3.698176760987945*^9}, 
-   3.698176819749854*^9, {3.698176861243928*^9, 3.698176869256798*^9}}]
+   3.698176819749854*^9, {3.698176861243928*^9, 3.698176869256798*^9}, 
+   3.6981770854825687`*^9, 3.6981771386839037`*^9, 3.698177462968096*^9, {
+   3.6981775054311533`*^9, 3.698177514126759*^9}, {3.698177569556747*^9, 
+   3.6981775889821987`*^9}, {3.69817763645833*^9, 3.698178006663175*^9}, {
+   3.6981780659002523`*^9, 3.6981780659897547`*^9}, {3.698178114672984*^9, 
+   3.6981784607080593`*^9}, {3.698178495678741*^9, 3.69817862411985*^9}, {
+   3.698178662341151*^9, 3.698178777924973*^9}, {3.698178822714746*^9, 
+   3.698178999790772*^9}, {3.698179050117218*^9, 3.698179092204034*^9}, {
+   3.698179238160954*^9, 3.698179287500783*^9}, {3.698179412207142*^9, 
+   3.698179444395523*^9}, {3.6981796471843767`*^9, 3.698179724158143*^9}, {
+   3.69817978870328*^9, 3.698179860899045*^9}, {3.69817993964047*^9, 
+   3.698180061667324*^9}, {3.698180093989162*^9, 3.698180127231504*^9}, {
+   3.698180170900434*^9, 3.6981803260626373`*^9}, {3.698180365483035*^9, 
+   3.698180434483684*^9}, {3.6981804913869867`*^9, 3.6981806526478653`*^9}, {
+   3.6981807184241133`*^9, 3.698180817180416*^9}, {3.6981808768397627`*^9, 
+   3.69818087877262*^9}, {3.69818109317634*^9, 3.69818110821756*^9}, {
+   3.6981811500691633`*^9, 3.698181173898633*^9}}]
 },
-WindowSize->{1066, 709},
+WindowSize->{1267, 709},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September \
 21, 2016)",
@@ -935,7 +1189,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 38442, 898, 3456, "Input"]
+Cell[558, 20, 47933, 1152, 3750, "Input"]
 }
 ]
 *)
